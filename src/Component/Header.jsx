@@ -5,20 +5,17 @@ export function Header()
     return (
         <>
             <header>
-                <h3>Amjahdi Walid</h3>
+                <h3>Portfolio</h3>
                 <nav>
-                    <ul>
+                    <ul className="link-list">
                         <li>
                             <Link to="/">Profile</Link>
                         </li>
                         <li>
-                            <Link to="/education">Education</Link>
+                            <Link to="/education">Education & Certifications</Link>
                         </li>
                         <li>
                             <Link to="/skills">Technical Skills</Link>
-                        </li>
-                        <li>
-                            <Link to="/certifications">Certifications</Link>
                         </li>
                         <li>
                             <Link to="/projects">Projects</Link>
