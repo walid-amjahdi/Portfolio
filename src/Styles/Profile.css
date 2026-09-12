@@ -1,27 +1,28 @@
 .first-profile-sec > h2
 {
     color: #f0f4f8;
+    font-size: 3.5vw;
 }
 .first-profile-sec > img
 {
-    height: 200px;
+    height: 50vh;
     border-radius: 10px;
 }
 .first-profile-sec
 {
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 5vh 10vw;
     align-items: center;
 }
 .profile > p
 {
     padding: 0px 20px;
     color: #f0f4f8;
-    font-size: 18px;
-    background-color:  rgba(130, 154, 177, 0.4); 
+    font-size: 20px;
+    background-color:  rgba(16, 42, 67, 0.4);
     border-radius: 5px;
     margin: 10px;
     line-height: 2;
-    box-shadow: 0px 0px 40px #829ab1;
+    box-shadow: 0px 0px 100px #102a43;
 }
