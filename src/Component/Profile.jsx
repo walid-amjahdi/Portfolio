@@ -1,11 +1,17 @@
+import '../Styles/Profile.css'
+import profile from '../Imgs/profile.jpeg'
+
 export function Profile()
 {
     return (
         <>
             <div className="profile">
-                <h3>
-                    Amjahdi Walid
-                </h3>
+                <div className="first-profile-sec">
+                    <h2>
+                        Amjahdi Walid
+                    </h2>
+                    <img src={profile} alt="profile pic" />
+                </div>
                 <p>
                     Information Systems Engineering student with hands-on experience 
                     building scalable full-stack web applications and microservices 

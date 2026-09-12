@@ -1,0 +1,20 @@
+.first-profile-sec > h2
+{
+    color: #f0f4f8;
+}
+.first-profile-sec > img
+{
+    height: 200px;
+    border-radius: 10px;
+}
+.first-profile-sec
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+.profile
+{
+    padding: 0px 20px;
+}

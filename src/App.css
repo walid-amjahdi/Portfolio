@@ -10,20 +10,6 @@ h3
     margin: 0px; 
     color: #f0f4f8;
 }
-header
-{
-    padding: 10px 20px 0px 20px;
-    background-color: #102a43;
-    color: 	#bcccdc;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.link-list
-{
-    display: flex;
-    list-style: none;
-}
 a
 {
     color: 	#bcccdc;
