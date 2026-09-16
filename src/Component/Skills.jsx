@@ -2,6 +2,7 @@ import '../Styles/Skills.css'
 import Java from '../Imgs/Icons/java.png'
 import JavaScript from '../Imgs/Icons/java-script.png'
 import Python from '../Imgs/Icons/python.png'
+import Cpp from '../Imgs/Icons/C++.png'
 
 export function Skills()
 {
@@ -20,7 +21,7 @@ export function Skills()
                         <img src={Python} alt="" className='logo'/>
                     </li>
                     <li>
-                        <img src="" alt="" className='logo'/>
+                        <img src={Cpp} alt="" className='logo'/>
                     </li>
                     <li>
                         <img src="" alt="" className='logo'/>
