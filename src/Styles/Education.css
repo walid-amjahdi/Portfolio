@@ -1,0 +1,15 @@
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vw;
+    color:	#f0f4f8;
+}
+.educ-comp
+{
+    padding: 5px 3vw;
+}
+.sections > p
+{
+    padding-left: 5vw;
+}
