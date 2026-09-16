@@ -1,14 +1,39 @@
+import Java from '../Imgs/Icons/java.png'
+import JavaScript from '../Imgs/Icons/java-script.png'
+
 export function Skills()
 {
     return (
         <>
-            <p>
-                Programming Languages: Java, JavaScript, Python, C++, C, SQL, HTML, CSS
-                Frameworks: Spring Boot, React
-                Databases: Oracle, SQLite, MySQL
-                Tools & Technologies: Git, Docker, Docker Compose, Spring Data JPA, Hibernate, Spring Cloud Gateway, GitHub
-                Actions
-            </p>
+            <h3>Technical Skills</h3>
+                <h4>Programming Language</h4>
+                <ul className="skills-list">
+                    <li>
+                        <img src={Java} alt="" />
+                    </li>
+                    <li>
+                        <img src={JavaScript} alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                </ul>
+
         </>
     )
 }
