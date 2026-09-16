@@ -2,14 +2,9 @@ export function Educations()
 {
     return (
         <>
-            <p>
-                Licence in Information Systems Engineering Expected 2027
-                Faculté des Sciences Semlalia (FSSM), Université Cadi Ayyad, Marrakech
-                Broad training in software development, full-stack development, databases, machine learning, and mathematics.
-                DEUG in Applied Computer Science (Informatique Appliquée) 2026
-                Faculté des Sciences Semlalia (FSSM), Université Cadi Ayyad, Marrakech
-                Baccalaureate in Physical Sciences – BIOF 2023
-            </p>
+            <h3>Educations</h3>
+                <h5>Licence in Information Systems Engineering</h5>
+            <h3>Certifications</h3>
         </>
     )
 }
