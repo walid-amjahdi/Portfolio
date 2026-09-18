@@ -6,6 +6,11 @@ import Cpp from '../Imgs/Icons/C++.png'
 import C from '../Imgs/Icons/c.png'
 import SQL from '../Imgs/Icons/sql.png'
 import HTML from '../Imgs/Icons/html.png'
+import CSS from '../Imgs/Icons/css.png'
+import Spring from '../Imgs/Icons/spring.png'
+import React from '../Imgs/Icons/react.png'
+import SFML from '../Imgs/Icons/sfml.png'
+
 
 export function Skills()
 {
@@ -36,7 +41,19 @@ export function Skills()
                         <img src={HTML} alt="" className='logo'/>
                     </li>
                     <li>
-                        <img src="" alt="" className='logo'/>
+                        <img src={CSS} alt="" className='logo'/>
+                    </li>
+                </ul>
+                <h4>Frameworks & bibliotics</h4>
+                <ul className="skills-list">
+                    <li>
+                        <img src={Spring} alt="" className="logo" />
+                    </li>
+                    <li>
+                        <img src={React} alt="" className="logo" />
+                    </li>
+                    <li>
+                        <img src={SFML} alt="" className="logo" />
                     </li>
                 </ul>
 
