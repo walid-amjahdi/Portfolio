@@ -3,6 +3,9 @@ import Java from '../Imgs/Icons/java.png'
 import JavaScript from '../Imgs/Icons/java-script.png'
 import Python from '../Imgs/Icons/python.png'
 import Cpp from '../Imgs/Icons/C++.png'
+import C from '../Imgs/Icons/c.png'
+import SQL from '../Imgs/Icons/sql.png'
+import HTML from '../Imgs/Icons/html.png'
 
 export function Skills()
 {
@@ -24,13 +27,13 @@ export function Skills()
                         <img src={Cpp} alt="" className='logo'/>
                     </li>
                     <li>
-                        <img src="" alt="" className='logo'/>
+                        <img src={C} alt="" className='logo'/>
                     </li>
                     <li>
-                        <img src="" alt="" className='logo'/>
+                        <img src={SQL} alt="" className='logo'/>
                     </li>
                     <li>
-                        <img src="" alt="" className='logo'/>
+                        <img src={HTML} alt="" className='logo'/>
                     </li>
                     <li>
                         <img src="" alt="" className='logo'/>
