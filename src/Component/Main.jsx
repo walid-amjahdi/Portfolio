@@ -13,9 +13,8 @@ export function Main()
                     <Route path="/" element={<Profile/>}/>
                     <Route path="/education" element={<Educations/>}/>
                     <Route path="/skills" element={<Skills/>}/>
-                    <Route path="/projects" element={<Projects/>}>
+                    <Route path="/projects" element={<Projects/>}/>
                     <Route path="/projects/withmeshop" element={<WithMeShop/>}/>
-                    </Route>
                 </Routes>
             </main>
         </>

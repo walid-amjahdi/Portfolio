@@ -6,7 +6,7 @@ export function Projects()
     return (
         <>
         <div className="project">
-            <Link to={"/withmeshop"}>
+            <Link to={"/projects/withmeshop"}>
                 <h4>With Me Shop</h4>
             </Link>
             <p>
