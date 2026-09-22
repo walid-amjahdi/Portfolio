@@ -3,6 +3,7 @@ import { Profile } from "./Profile"
 import { Educations } from "./Educations"
 import { Skills } from './Skills';
 import { Projects } from "./Projects";
+import { WithMeShop } from "./WithMeShop";
 export function Main()
 {
     return (
@@ -12,7 +13,9 @@ export function Main()
                     <Route path="/" element={<Profile/>}/>
                     <Route path="/education" element={<Educations/>}/>
                     <Route path="/skills" element={<Skills/>}/>
-                    <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/projects" element={<Projects/>}>
+                    <Route path="/projects/withmeshop" element={<WithMeShop/>}/>
+                    </Route>
                 </Routes>
             </main>
         </>
